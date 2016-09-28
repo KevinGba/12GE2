@@ -1,0 +1,28 @@
+# 12GE2
+
+public class Fraction {
+    
+    private double denominator;
+    private double numerator;
+    
+    public Fraction(double pN,double pD)
+    {
+        denominator = pD;
+        numerator = pN;
+    }
+    public double getDenominator()
+    {
+        return denominator;
+    }
+    public double getNumerator()
+    {
+        return numerator;
+    }
+    public void setNumerator(double pN)//public setFractions
+    {
+        numerator = pN;
+    }
+    public void setDenominator(double pN)
+    {
+        denominator = pN;
+    }
