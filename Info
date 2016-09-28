@@ -26,4 +26,23 @@ public class Fraction {
     {
         denominator = pN;
     }
+        public String showFraction()
+    {
+        if(numerator%denominator==0)
+            return "numerator/denominator";
+        else
+        return numerator+" / "+ denominator;
+    }
+    public double getDecimal()
+    {
+        if(denominator<0)
+        {
+            return Double.NaN;
+        }
+        return numerator/denominator;
+    }
+    public boolean isNegative()
+    {   
+       return getDecimal()<=0;               
+    }
 }
